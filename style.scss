@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(45, 215, 243, 1) 0%, rgba(110, 42, 166, 1) 59%);
+    display: flex;
+    margin: auto;
+    text-align: center;
+    form {
+        margin: auto;
+        text-align: center;
+        text-align: center;
+        align-items: center;
+        width: 55%;
+        background-color: white;
+        height: 550px;
+        input:focus{
+       border-bottom: 2px solid aqua;
+        }
+        button{
+            margin-right: -39px;
+            width: 53%;
+            height: 40px;
+            background: rgb(34, 193, 195);
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(45, 215, 243, 1) 0%, rgba(110, 42, 166, 1) 59%);
+    color: white;
+    border: none;
+        }
+        #inp{
+            width: 96%;
+            margin-left: 85px;
+            padding-bottom: 50px;
+            padding-left: 2px;
+        }
+        h2{
+            margin: auto;
+            color: purple;
+        }
+        input{
+            width: 58%;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            padding-bottom: 15px;
+            outline: none;
+
+        }
+    }
+}

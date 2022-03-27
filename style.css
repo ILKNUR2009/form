@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left top, right top, from(#22c1c3), color-stop(0%, #2dd7f3), color-stop(59%, #6e2aa6));
+  background: linear-gradient(90deg, #22c1c3 0%, #2dd7f3 0%, #6e2aa6 59%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+body form {
+  margin: auto;
+  text-align: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+  background-color: white;
+  height: 550px;
+}
+
+body form input:focus {
+  border-bottom: 2px solid aqua;
+}
+
+body form button {
+  margin-right: -39px;
+  width: 53%;
+  height: 40px;
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left top, right top, from(#22c1c3), color-stop(0%, #2dd7f3), color-stop(59%, #6e2aa6));
+  background: linear-gradient(90deg, #22c1c3 0%, #2dd7f3 0%, #6e2aa6 59%);
+  color: white;
+  border: none;
+}
+
+body form #inp {
+  width: 96%;
+  margin-left: 85px;
+  padding-bottom: 50px;
+  padding-left: 2px;
+}
+
+body form h2 {
+  margin: auto;
+  color: purple;
+}
+
+body form input {
+  width: 58%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-bottom: 15px;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
